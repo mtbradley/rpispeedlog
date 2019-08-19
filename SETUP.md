@@ -5,8 +5,11 @@ Assumes you have a base configured Raspberry Pi with working Internet connection
 
 ### Install required packages
 In terminal update and install the following packages:
-
- ```
+```
+apt-get update
+apt-get dist-upgrade
+```
+```
 sudo apt-get install ntpdate -y
 sudo apt-get install python3-pip -y
 sudo apt-get install python3-matplotlib -y
@@ -15,7 +18,7 @@ sudo apt-get install git -y
 sudo apt-get install apache2 -y
 sudo apt-get install php libapache2-mod-php -y
 sudo apt-get install speedtest-cli -y
- ```
+```
 
 ### Clone rpispeedlog
 Working from the pi user home directory /home/pi
