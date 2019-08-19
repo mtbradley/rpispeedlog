@@ -5,7 +5,7 @@ Intended purpose:
 - Fetch Internet connection results from speedtest-cli at a scheduled cron interval.
 - Store results using SQLITE3
 - Plot Internet speed and generate images using Python Matplotlib. 
-- Display the plots/graph image along with database logs on webpage using Apache and PHP with selectable date dropdown.
+- Display the plots/graph image along with database logs on webpage using Apache and PHP with selectable date.
 
 ### Getting started
 For configuration and setup get [started here.](https://github.com/mtbradley/rpispeedlog/blob/master/SETUP.md)
