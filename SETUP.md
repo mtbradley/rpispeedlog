@@ -41,3 +41,31 @@ Restart Apache update configuration changes
 
 This will enable access to web interface at:
 http://yourpiipaddress/speedlog
+
+### Demo data
+
+If setup correctly you should be able to view the interface now. The database will contain sample data.
+
+If your web inferface is working you can remove/delete the demo data as follows:
+
+Delete SQLite3 database file
+`rm /home/pi/rpispeedlog/speedresults.db`
+Recreate blank SQLite3 database file
+`touch /home/pi/rpispeedlog/speedresults.db`
+Delete sample plot images
+`rm /home/pi/rpispeedlog/www/plots/*`
+
+### Running rpispeedlog manually
+Use the shell script by running:
+`/home/pi/rpispeedlog/speedcron.sh`
+
+### Updating crontab to run at hourly intervals
+As user Pi run command:
+`crontab -e`
+
+Add line to the crontab (one shown is for hourly updates)
+`0 * * * * /home/pi/rpispeedlog/speedcron.sh`
+Exit and save the crontab changes.
+
+(As speedtest-cli uses external servers I would recommend updating to frequently as this may lead to your IP being blocked or blacklisted)
+
