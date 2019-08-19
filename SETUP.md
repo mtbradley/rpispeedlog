@@ -22,8 +22,6 @@ Working from the pi user home directory /home/pi
 `git clone https://github.com/mtbradley/rpispeedlog.git`
 
 ### Edit Apache2 configuration files:
-This will enable access to web interface at:
-http://yourpiipaddress/speedlog
 
 Use preferred editor ie vim or nano
 `sudo vim /etc/apache2/apache2.conf` or `sudo nano /etc/apache2/apache2.conf`
@@ -41,4 +39,5 @@ Alias "/speedlog" "/home/pi/rpispeedlog/www"
 Restart Apache update configuration changes
 `sudo /etc/init.d/apache2 restart`
 
-
+This will enable access to web interface at:
+http://yourpiipaddress/speedlog
