@@ -1,4 +1,4 @@
-# Setup/Configuration (rpispeedlog)
+# Configuration (rpispeedlog)
 
 ### Getting started  
 Assumes you have a base configured Raspberry Pi with working Internet connection. [Basic Raspberry Pi setup information](https://github.com/mtbradley/rpispeedlog/blob/master/raspberrypi_initial_setup.md)
