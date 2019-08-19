@@ -48,7 +48,7 @@ Restart Apache update configuration changes
 This will enable access to web interface at:
 http://yourpiipaddress/speedlog
 
-### Demo data
+### Sample data will exist be default
 
 If setup correctly you should be able to view the interface now. The database will contain sample data.
 
