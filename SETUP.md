@@ -83,5 +83,5 @@ Add line to the crontab (one shown is for hourly updates)
 
 Exit and save the crontab changes.
 
-(As speedtest-cli uses external servers I would recommend updating to frequently as this may lead to your IP being blocked or blacklisted)
+(As speedtest-cli uses external servers I would not recommend updating to frequently as this may lead to your IP being blocked or blacklisted)
 
