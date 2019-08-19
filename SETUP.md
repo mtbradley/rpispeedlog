@@ -6,8 +6,8 @@ Assumes you have a base configured Raspberry Pi with working Internet connection
 ### Install required packages
 In terminal update and install the following packages:
 ```
-apt-get update
-apt-get dist-upgrade
+apt-get update -y
+apt-get dist-upgrade -y
 ```
 ```
 sudo apt-get install ntpdate -y
