@@ -1,5 +1,5 @@
 # rpispeedlog
-Raspberry Pi Internet Speed Test Logger was just an experiment to learn the basics of Matplotlib and other Python modules. 
+Raspberry Pi Internet Speed Test Logger was just an experiment to learn the basics of Matplotlib and other Python modules. For configuration and setup [click here](https://github.com/mtbradley/rpispeedlog/blob/master/SETUP.md) 
 
 Intended purpose: 
 - Fetch Internet connection results from speedtest-cli at a scheduled cron interval.
@@ -8,6 +8,6 @@ Intended purpose:
 - Display the plots/graph image along with database logs on webpage using Apache and PHP with selectable date.
 
 ### Getting started
-For configuration and setup get [started here.](https://github.com/mtbradley/rpispeedlog/blob/master/SETUP.md)
+
 
 ![screenshot web interface](https://raw.githubusercontent.com/mtbradley/rpispeedlog/master/screenshot.png)
