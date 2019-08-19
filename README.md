@@ -7,7 +7,5 @@ Intended purpose:
 - Plot Internet speed and generate images using Python Matplotlib. 
 - Display the plots/graph image along with database logs on webpage using Apache and PHP with selectable date.
 
-### Getting started
-
-
+### Screenshot of web interface
 ![screenshot web interface](https://raw.githubusercontent.com/mtbradley/rpispeedlog/master/screenshot.png)
