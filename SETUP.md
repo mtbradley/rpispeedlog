@@ -35,7 +35,7 @@ Use preferred editor ie vim or nano
 
 In the apache2.conf file add the following lines:
 ```
-<Directory /home/pi/rpispeedlog/>
+<Directory /home/pi/rpispeedlog/www/>
         Options Indexes FollowSymLinks
         AllowOverride None
         Require all granted
