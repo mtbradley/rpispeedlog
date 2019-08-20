@@ -5,7 +5,7 @@ What it does:
 - Fetch Internet connection speed results using speedtest-cli at a scheduled cron interval.
 - Store results using SQLITE3
 - Plot Internet speed and generate plot/graph images using Python Matplotlib. 
-- Display the plots/graph image along with database logs on webpage using Apache and PHP with selectable date.
+- Display the plot/graph image along with database logs on webpage with selectable date using Apache and PHP.
 
 ### Screenshot of web interface
 ![screenshot web interface](https://raw.githubusercontent.com/mtbradley/rpispeedlog/master/screenshot.png)
