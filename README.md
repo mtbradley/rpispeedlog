@@ -1,5 +1,5 @@
 # rpispeedlog
-RPi Speedlog can be used to track and log Internet download and upload speed performance on a Raspberry Pi. This project was a experiment to learn the basics of Matplotlib and other Python modules. [Setup and configuration](https://github.com/mtbradley/rpispeedlog/blob/master/SETUP.md) 
+RPi Speedlog can be used to track and log Internet download and upload speed performance on a Raspberry Pi. This project was an experiment to learn the basics of Matplotlib and other Python modules. [Setup and configuration](https://github.com/mtbradley/rpispeedlog/blob/master/SETUP.md) 
 
 What it does: 
 - Fetch Internet connection results from speedtest-cli at a scheduled cron interval.
