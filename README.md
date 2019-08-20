@@ -7,5 +7,5 @@ What it does:
 - Plot Internet speed and generate plot/graph images using Python Matplotlib. 
 - Display the plot/graph along with database logs on webpage with selectable date using Apache and PHP.
 
-### Screenshot of web interface
+### Screenshot
 ![screenshot web interface](https://raw.githubusercontent.com/mtbradley/rpispeedlog/master/screenshot.png)
