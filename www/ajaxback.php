@@ -1,11 +1,27 @@
+<!--
+#
+# Copyright (c) 2019 Mark Bradley
+# 
+# This file is part of rpispeedlog
+# https://github.com/mtbradley/rpispeedlog
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or 
+# any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+-->
 <?php
 $pdo = new PDO('sqlite:/home/pi/rpispeedlog/speedresults.db');
-
-$_GET      = filter_input_array(INPUT_GET, FILTER_SANITIZE_STRING);
-$_POST     = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
+$_GET = filter_input_array(INPUT_GET, FILTER_SANITIZE_STRING);
+$_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
 $queryDate = $_GET['date'];
-$stmt      = $pdo->prepare('SELECT * FROM results where date = :date');
-#$stmt = $pdo->prepare("SELECT * FROM results where date ='30/07/19'");
+$stmt = $pdo->prepare('SELECT * FROM results where date = :date');
 $stmt->bindParam(':date', $queryDate, PDO::PARAM_STR, 8);
 $stmt->execute();
 $rows = $stmt->fetchAll(PDO::FETCH_NUM);
@@ -44,7 +60,6 @@ echo '</div>';
 
 $i = 0;
 foreach ($rows as $row) {
-    #echo $i;
     $resultID       = $row[0];
     $resultDate     = $row[1];
     $resultTime     = $row[2];
