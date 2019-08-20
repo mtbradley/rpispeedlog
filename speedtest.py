@@ -105,5 +105,5 @@ resultsTable = """ CREATE TABLE IF NOT EXISTS results (
 
 create_table(resultsTable)
 insert_result(resultData)
-select_all_results()
+#select_all_results()
 close_connection()
