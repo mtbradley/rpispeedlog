@@ -74,7 +74,7 @@ def get_speed_results():
     return results
 
 resultData = get_speed_results()
-database = "speedresults.db"
+database = "/home/pi/rpispeedlog/speedresults.db"
 conn = create_connection(database)
 
 resultsTable = """ CREATE TABLE IF NOT EXISTS results (

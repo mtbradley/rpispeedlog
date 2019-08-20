@@ -22,7 +22,7 @@ $latest = $uniRows[0];
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>RPi Internet Speed Test Logger</title>
+    <title>RPi SpeedLog</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
@@ -52,7 +52,7 @@ $latest = $uniRows[0];
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
       <div class="container">
-        <a class="navbar-brand branding" href="#">RPi Internet Speed Test Logger</a>
+        <a class="navbar-brand branding" href="#">RPi SpeedLog</a>
       </div>
     </nav>
     <!-- Page Content -->
@@ -104,7 +104,7 @@ print "<option value=".$row.">$row</option>";
       </script>
     </div>
     <footer>
-      <div class="footer text-center branding mb-3">RPi Internet Speed Test Logger</div>
+      <div class="footer text-center branding mb-3">RPi SpeedLog</div>
     </footer>
   </body>
 </html>

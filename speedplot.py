@@ -7,8 +7,7 @@ from sqlite3 import Error
 
 print("Commencing speedtest plot...")
 today = datetime.datetime.today().strftime('%A')
-#rDate = time.strftime('%d/%m/%y')
-rDate = "01/08/19"
+rDate = time.strftime('%d/%m/%y')
 
 def create_connection(db_file):
     try:
@@ -27,7 +26,7 @@ def close_connection():
         print(e)
 
 print("Fetching result data for {0}...".format(rDate))
-database = "speedresults.db"
+database = "/home/pi/rpispeedlog/speedresults.db"
 conn = create_connection(database)
 query = f"""
     SELECT * FROM results WHERE date = "{rDate}"
