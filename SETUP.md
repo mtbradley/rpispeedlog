@@ -1,7 +1,9 @@
 # Configuration (rpispeedlog)
 
 ### Getting started  
-Assumes you have a base configured Raspberry Pi with working Internet connection. [Basic Raspberry Pi setup information can be found here](https://github.com/mtbradley/rpispeedlog/blob/master/PIBASIC.md)
+Assumes you have a base configured Raspberry Pi with working Internet connection.
+
+[Basic Raspberry Pi initial setup information](https://github.com/mtbradley/rpispeedlog/blob/master/PIBASIC.md)
 
 ### Install required packages
 In terminal update and install the following packages:
